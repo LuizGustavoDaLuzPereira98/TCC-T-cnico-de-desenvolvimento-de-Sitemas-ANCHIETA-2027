@@ -1,10 +1,369 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jaguariaíva Aventura</title>
-  </head>
-  <body>
-    <h1>Jaguariaíva Aventura</h1>
-  </body>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+
+        <div class="logo">
+            🥾 <span>Jaguariaíva</span> Aventura
+        </div>
+
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="trilhas.html">Trilhas</a>
+            <a href="atracoes.html">Atrações</a>
+            <a href="mapa.html">Mapa</a>
+            <a href="login.html">Entrar</a>
+        </nav>
+
+    </header>
+
+
+    <!-- BANNER PRINCIPAL -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Explore as belezas de
+                <strong>Jaguariaíva</strong>
+            </h1>
+
+            <p>
+                Descubra trilhas, cachoeiras, mirantes
+                e aventuras incríveis.
+            </p>
+
+            <a href="trilhas.html" class="btn">
+                Explorar trilhas
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- PESQUISA -->
+    <section class="pesquisa">
+
+        <h2>Encontre sua próxima aventura</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Digite o nome de uma trilha ou atração..."
+            >
+
+            <select>
+                <option value="">Tipo de aventura</option>
+                <option value="trilha">🥾 Trilhas</option>
+                <option value="cachoeira">💦 Cachoeiras</option>
+                <option value="mirante">🌄 Mirantes</option>
+                <option value="parque">🌳 Parques</option>
+            </select>
+
+            <select>
+                <option value="">Dificuldade</option>
+                <option value="facil">🟢 Fácil</option>
+                <option value="medio">🟡 Média</option>
+                <option value="dificil">🔴 Difícil</option>
+            </select>
+
+            <button type="submit">
+                🔎 Pesquisar
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- CATEGORIAS -->
+    <section class="categorias">
+
+        <h2>Explore por categoria</h2>
+
+        <div class="categoria-container">
+
+            <a href="trilhas.html" class="categoria">
+                <span>🥾</span>
+                <h3>Trilhas</h3>
+                <p>Explore novos caminhos</p>
+            </a>
+
+            <a href="cachoeiras.html" class="categoria">
+                <span>💦</span>
+                <h3>Cachoeiras</h3>
+                <p>Descubra quedas d'água</p>
+            </a>
+
+            <a href="mirantes.html" class="categoria">
+                <span>🌄</span>
+                <h3>Mirantes</h3>
+                <p>Contemple a paisagem</p>
+            </a>
+
+            <a href="parques.html" class="categoria">
+                <span>🌳</span>
+                <h3>Parques</h3>
+                <p>Conheça a natureza</p>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- TRILHAS EM DESTAQUE -->
+    <section class="destaques">
+
+        <div class="section-header">
+
+            <div>
+                <h2>Trilhas em destaque</h2>
+                <p>Conheça alguns dos lugares que você pode explorar.</p>
+            </div>
+
+            <a href="trilhas.html">
+                Ver todas →
+            </a>
+
+        </div>
+
+
+        <div class="trilhas-container">
+
+
+            <!-- CARD 1 -->
+            <article class="trilha-card">
+
+                <div class="imagem">
+                    <img
+                        src="img/trilha-1.jpg"
+                        alt="Paisagem de uma trilha"
+                    >
+
+                    <span class="dificuldade facil">
+                        Fácil
+                    </span>
+
+                </div>
+
+                <div class="trilha-info">
+
+                    <span class="tipo">
+                        🥾 Trilha
+                    </span>
+
+                    <h3>Trilha Exemplo</h3>
+
+                    <p>
+                        Uma trilha cercada pela natureza
+                        e belas paisagens.
+                    </p>
+
+                    <div class="dados">
+                        <span>📏 3,2 km</span>
+                        <span>⏱️ 1h 30min</span>
+                    </div>
+
+                    <div class="avaliacao">
+                        ⭐⭐⭐⭐⭐
+                        <span>4,8</span>
+                    </div>
+
+                    <a href="detalhes.html" class="btn-card">
+                        Ver detalhes
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 2 -->
+            <article class="trilha-card">
+
+                <div class="imagem">
+
+                    <img
+                        src="img/trilha-2.jpg"
+                        alt="Cachoeira em Jaguariaíva"
+                    >
+
+                    <span class="dificuldade medio">
+                        Média
+                    </span>
+
+                </div>
+
+                <div class="trilha-info">
+
+                    <span class="tipo">
+                        💦 Cachoeira
+                    </span>
+
+                    <h3>Cachoeira Exemplo</h3>
+
+                    <p>
+                        Um lugar ideal para quem gosta
+                        de natureza e aventura.
+                    </p>
+
+                    <div class="dados">
+                        <span>📏 5,5 km</span>
+                        <span>⏱️ 2h 30min</span>
+                    </div>
+
+                    <div class="avaliacao">
+                        ⭐⭐⭐⭐☆
+                        <span>4,5</span>
+                    </div>
+
+                    <a href="detalhes.html" class="btn-card">
+                        Ver detalhes
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 3 -->
+            <article class="trilha-card">
+
+                <div class="imagem">
+
+                    <img
+                        src="img/trilha-3.jpg"
+                        alt="Mirante com vista para a natureza"
+                    >
+
+                    <span class="dificuldade dificil">
+                        Difícil
+                    </span>
+
+                </div>
+
+                <div class="trilha-info">
+
+                    <span class="tipo">
+                        🌄 Mirante
+                    </span>
+
+                    <h3>Mirante Exemplo</h3>
+
+                    <p>
+                        Uma experiência para quem procura
+                        aventura e belas paisagens.
+                    </p>
+
+                    <div class="dados">
+                        <span>📏 7,1 km</span>
+                        <span>⏱️ 4h</span>
+                    </div>
+
+                    <div class="avaliacao">
+                        ⭐⭐⭐⭐⭐
+                        <span>4,9</span>
+                    </div>
+
+                    <a href="detalhes.html" class="btn-card">
+                        Ver detalhes
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAPA -->
+    <section class="mapa-section">
+
+        <div class="mapa-texto">
+
+            <span>📍 EXPLORE</span>
+
+            <h2>
+                Encontre aventuras
+                perto de você
+            </h2>
+
+            <p>
+                Veja no mapa as principais trilhas,
+                cachoeiras, parques e pontos turísticos
+                de Jaguariaíva.
+            </p>
+
+            <a href="mapa.html" class="btn">
+                Abrir mapa
+            </a>
+
+        </div>
+
+        <div class="mapa-placeholder">
+            🗺️
+            <p>Mapa de Jaguariaíva</p>
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div>
+
+            <h3>🥾 Jaguariaíva Aventura</h3>
+
+            <p>
+                Descubra a natureza e as aventuras
+                de Jaguariaíva.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>Links</h4>
+
+            <a href="index.html">Início</a>
+            <a href="trilhas.html">Trilhas</a>
+            <a href="atracoes.html">Atrações</a>
+            <a href="mapa.html">Mapa</a>
+
+        </div>
+
+
+        <div>
+
+            <h4>Contato</h4>
+
+            <p>📍 Jaguariaíva - PR</p>
+            <p>📧 contato@jaguariaivaaventura.com</p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+
+</body>
 </html>
