@@ -30,3 +30,53 @@ Funcionalidades principais
 
 🛠️ Painel administrativo para cadastrar e editar atrações
 
+Frontend
+
+HTML
+
+CSS
+
+JavaScript
+
+Bootstrap
+
+Backend
+
+Node.js
+
+Express
+
+Banco
+
+MySQL
+
+Mapa
+
+Leaflet
+
+OpenStreetMap
+
+Versionamento
+
+Git + GitHub
+
+"Monte seu roteiro".
+
+O usuário seleciona:
+
+Quero passar 1 dia em Jaguariaíva
+Dificuldade: fácil
+Interesse: natureza + cachoeira
+
+O sistema monta uma sugestão:
+
+Nossa Meta: 
+
+Etapa 1: instalar/configurar Node.js e MySQL
+Etapa 2: criar o projeto no VS Code
+Etapa 3: criar o banco de dados
+Etapa 4: fazer a primeira tela
+Etapa 5: criar o backend/API
+Etapa 6: conectar frontend + banco
+Etapa 7: implementar mapa, avaliações e favoritos
+Etapa 8: deixar com aparência de TCC pronto para apresentação.
